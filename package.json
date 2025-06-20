@@ -1,0 +1,44 @@
+{
+  "name": "wechat-bot-tool",
+  "version": "1.0.0",
+  "description": "基于 Wechaty 框架开发的智能微信机器人，支持自动回复、好友管理、群聊助手等功能",
+  "main": "dist/my-bot.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/my-bot.js",
+    "dev": "ts-node src/my-bot.ts",
+    "clean": "rimraf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wechaty",
+    "wechat",
+    "bot",
+    "chatbot",
+    "automation",
+    "typescript"
+  ],
+  "author": "XjwCrab",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XjwCrab/wecaht_tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/XjwCrab/wecaht_tool/issues"
+  },
+  "homepage": "https://github.com/XjwCrab/wecaht_tool#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "wechaty": "^1.20.2",
+    "wechaty-puppet-padlocal": "^1.20.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "rimraf": "^5.0.0"
+  }
+}
